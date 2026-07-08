@@ -1,16 +1,143 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Expense Tracker built with *React*and *Vite*. It helps users manage daily expenses, view spending summaries, and analyze expenses through interactive charts.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 Add your Vercel link here after deployment
 
-## React Compiler
+Example:
+https://your-expense-tracker.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Dashboard
+
+> Add your screenshot here
+
+```md
+![Dashboard](./screenshots/dashboard.png)
+```
+
+### Add Expense
+
+```md
+![Add Expense](./screenshots/add-expense.png)
+```
+
+### Expense Summary
+
+```md
+![Summary](./screenshots/summary.png)
+```
+
+---
+
+## ✨ Features
+
+- ➕ Add new expenses
+- 🗑️ Delete expenses
+- 📂 Filter expenses by category
+- 📊 Interactive charts using Recharts
+- 💵 Expense summary cards
+- 📱 Responsive design
+- ⚡ Fast performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6)
+- CSS3
+- Recharts
+- Lucide React
+
+---
+
+## 📁 Project Structure
+
+```
+Expense-Tracker
+│
+├── src
+│   ├── components
+│   │   ├── ExpensesForm.jsx
+│   │   ├── ExpensesItem.jsx
+│   │   ├── ExpensesList.jsx
+│   │   ├── Filter.jsx
+│   │   └── Summary.jsx
+│   │
+│   ├── constants.js
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── public
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Expense-Tracker.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Expense-Tracker
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🎯 Future Improvements
+
+- ✏️ Edit existing expenses
+- 🌙 Dark mode
+- 🔍 Search expenses
+- 📅 Monthly reports
+- ☁️ Database integration
+- 🔐 User authentication
+
+---
+
+## 👩‍💻 Author
+
+-->Anusha
+
+GitHub: https://github.com/anusha-repos
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
